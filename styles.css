@@ -1,0 +1,122 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 20px;
+}
+
+.notification img {
+  width: 24px;
+  height: 24px;
+}
+
+.currency-select {
+  margin-bottom: 20px;
+}
+
+.currency-select label {
+  font-weight: bold;
+}
+
+.currency-select select {
+  padding: 5px;
+  margin-left: 10px;
+}
+
+.card {
+  background-color: #0000ff;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 36px;
+}
+
+.card button {
+  background-color: #ffff00;
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.actions {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.actions button {
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.withdraw-section, .buy-bpc {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.withdraw-section h3, .buy-bpc h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.withdraw-section p, .buy-bpc p {
+  text-align: left;
+  margin: 10px 0;
+}
+
+.withdraw-section input, .buy-bpc input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.withdraw-section button, .buy-bpc button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
